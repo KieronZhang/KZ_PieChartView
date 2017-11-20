@@ -13,8 +13,21 @@
 		AE08C9F31E732C3D00CA5871 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE08C9F11E732C3D00CA5871 /* Main.storyboard */; };
 		AE08C9F51E732C3D00CA5871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE08C9F41E732C3D00CA5871 /* Assets.xcassets */; };
 		AE08C9F81E732C3D00CA5871 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE08C9F61E732C3D00CA5871 /* LaunchScreen.storyboard */; };
-		AEDC0FF61FC1D56100752728 /* KZ_PieChartViewFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEDC0FF51FC1D56100752728 /* KZ_PieChartViewFramework.framework */; };
+		AEA5EBFD1FC2ACD0003D7BD1 /* KZ_PieChartViewFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEA5EBFC1FC2ACD0003D7BD1 /* KZ_PieChartViewFramework.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AEDC0FEA1FC1D4D900752728 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AE08C9E51E732C3D00CA5871 /* KZ_PieChartView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZ_PieChartView.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -27,7 +40,7 @@
 		AE08C9F41E732C3D00CA5871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE08C9F71E732C3D00CA5871 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE08C9F91E732C3D00CA5871 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEDC0FF51FC1D56100752728 /* KZ_PieChartViewFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_PieChartViewFramework.framework; sourceTree = "<group>"; };
+		AEA5EBFC1FC2ACD0003D7BD1 /* KZ_PieChartViewFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_PieChartViewFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEDC0FF61FC1D56100752728 /* KZ_PieChartViewFramework.framework in Frameworks */,
+				AEA5EBFD1FC2ACD0003D7BD1 /* KZ_PieChartViewFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,7 +78,7 @@
 				AE08C9EC1E732C3D00CA5871 /* AppDelegate.m */,
 				AE08C9EE1E732C3D00CA5871 /* ViewController.h */,
 				AE08C9EF1E732C3D00CA5871 /* ViewController.m */,
-				AE08CA1B1E732C5300CA5871 /* PieChartView */,
+				AEA5EBFB1FC2ACD0003D7BD1 /* PieChartView */,
 				AE08C9F11E732C3D00CA5871 /* Main.storyboard */,
 				AE08C9F41E732C3D00CA5871 /* Assets.xcassets */,
 				AE08C9F61E732C3D00CA5871 /* LaunchScreen.storyboard */,
@@ -83,10 +96,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AE08CA1B1E732C5300CA5871 /* PieChartView */ = {
+		AEA5EBFB1FC2ACD0003D7BD1 /* PieChartView */ = {
 			isa = PBXGroup;
 			children = (
-				AEDC0FF51FC1D56100752728 /* KZ_PieChartViewFramework.framework */,
+				AEA5EBFC1FC2ACD0003D7BD1 /* KZ_PieChartViewFramework.framework */,
 			);
 			path = PieChartView;
 			sourceTree = "<group>";
@@ -101,6 +114,7 @@
 				AE08C9E11E732C3D00CA5871 /* Sources */,
 				AE08C9E21E732C3D00CA5871 /* Frameworks */,
 				AE08C9E31E732C3D00CA5871 /* Resources */,
+				AEDC0FEA1FC1D4D900752728 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -296,6 +310,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = TGTFTDLM8G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -314,6 +329,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = TGTFTDLM8G;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
