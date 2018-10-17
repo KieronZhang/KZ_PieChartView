@@ -13,7 +13,7 @@
 		AE40060720A429BF00017619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE40060620A429BF00017619 /* Assets.xcassets */; };
 		AE40060A20A429BF00017619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE40060820A429BF00017619 /* LaunchScreen.storyboard */; };
 		AE40060D20A429BF00017619 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE40060C20A429BF00017619 /* main.m */; };
-		AE40061820A42A5500017619 /* KZ_PieChartView_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE40061720A42A5500017619 /* KZ_PieChartView_iOS.framework */; };
+		AEF94D942176E6C70063EE69 /* KZ_PieChartView_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEF94D932176E6C70063EE69 /* KZ_PieChartView_iOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		AE40060920A429BF00017619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE40060B20A429BF00017619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE40060C20A429BF00017619 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		AE40061720A42A5500017619 /* KZ_PieChartView_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_PieChartView_iOS.framework; sourceTree = "<group>"; };
+		AEF94D932176E6C70063EE69 /* KZ_PieChartView_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KZ_PieChartView_iOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE40061820A42A5500017619 /* KZ_PieChartView_iOS.framework in Frameworks */,
+				AEF94D942176E6C70063EE69 /* KZ_PieChartView_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +78,7 @@
 		AE40061620A42A5500017619 /* PieChartView */ = {
 			isa = PBXGroup;
 			children = (
-				AE40061720A42A5500017619 /* KZ_PieChartView_iOS.framework */,
+				AEF94D932176E6C70063EE69 /* KZ_PieChartView_iOS.framework */,
 			);
 			path = PieChartView;
 			sourceTree = "<group>";
@@ -309,7 +309,7 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-PieChartView-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.PieChartView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -333,7 +333,7 @@
 					"@executable_path/Frameworks",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.kieronzhang.KZ-PieChartView-iOS";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kieronzhang.PieChartView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
