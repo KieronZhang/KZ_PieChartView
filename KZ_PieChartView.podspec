@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
     s.name = 'KZ_PieChartView'
-    s.version = '0.1.2'
+    s.version = '0.1.3'
     s.summary = 'iOS Pie Chart.'
     s.homepage = 'https://github.com/KieronZhang/KZ_PieChartView'
     s.license = {:type => 'MIT', :file => 'LICENSE'}
